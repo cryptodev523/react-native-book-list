@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.rntypescriptboilerplate"
+        applicationId "com.booklist.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

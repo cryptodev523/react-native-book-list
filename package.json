@@ -1,7 +1,7 @@
 {
-  "name": "react-native-typescript-boilerplate",
+  "name": "RNbooklist",
   "version": "1.0.3",
-  "description": "A lot of fundamental features with Typescript support React Native Boilerplate",
+  "description": "Simple React Native project written in Typescript",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",

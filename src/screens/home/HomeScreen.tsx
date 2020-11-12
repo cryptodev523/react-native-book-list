@@ -40,7 +40,7 @@ export default HomeScreen;
 
 const Container = styled(SafeAreaView)`
   background-color: #f0efeb;
-  padding: 20px 0;
+  padding: 40px 0;
 `;
 
 const BookContainer = styled(View)`
