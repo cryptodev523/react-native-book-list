@@ -1,28 +1,10 @@
 import axios from "axios";
 import { BASE_URL } from "./api.constant";
-const API_HEADER = {
-  "x-api-key": "your-access-token",
-};
+const API_HEADER = {};
 
-/**
- * ? USAGE:
- *
- * import { fetchExample } from "api"
- *
- * fetchExample()
- * .then((res) => {
- *   // Your Magic is here
- * })
- * .catch((err) => {
- *   // Handle your API error
- *   console.error("Fetch Example Error: ", err);
- * });
- *
- */
-
-export const fetchExample = () =>
+export const fetchBookList = () =>
   new Promise(async (resolve, reject) => {
-    const url = BASE_URL + "your-url";
+    const url = BASE_URL;
     axios
       .get(url, {
         headers: API_HEADER,
